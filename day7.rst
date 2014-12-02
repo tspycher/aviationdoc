@@ -16,7 +16,8 @@ Elektrik
 
 Bordnetz
 ~~~~~~~~
-// TODO: Bild von Bordnetz
+
+.. image:: day7/cirucuit.jpg
 
 Hydraulik
 ~~~~~~~~~
