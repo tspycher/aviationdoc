@@ -37,7 +37,7 @@ Beispiel:
 TC = 360°
 Var = 1.5° E
 
-
+Magnetic Course = 358.5°
 
 
 
