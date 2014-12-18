@@ -49,6 +49,7 @@ Variation W (west) = muss dem TC addiert werden
 Beispiel 1:
 
 TC = 360°
+
 Var = 1.5° E
 
 Magnetic Course = 358.5°
@@ -56,18 +57,25 @@ Magnetic Course = 358.5°
 Beispiel 2:
 
 TC = 360°
+
 Var = 7° W
 
 MC = 7°
+
 + 5° Wind Correction
+
 MH = 12°
 
 Beispiel 3:
 
 TC = 090°
+
 WCA = +10°
+
 == TH 190°
+
 Var = 10° E
+
 == MH 075°
 
 Alle Angaben via Navigationskarte sind True (True Course / True Heading)
