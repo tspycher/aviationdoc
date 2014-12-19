@@ -46,6 +46,7 @@ Variation E (east) = muss vom TC substrahiert werden
 
 Variation W (west) = muss dem TC addiert werden
 
+
 Beispiel 1:
 
 TC = 360°
@@ -53,6 +54,7 @@ TC = 360°
 Var = 1.5° E
 
 Magnetic Course = 358.5°
+
 
 Beispiel 2:
 
@@ -65,6 +67,7 @@ MC = 7°
 + 5° Wind Correction
 
 MH = 12°
+
 
 Beispiel 3:
 
@@ -87,4 +90,15 @@ Deviation
 Ungenaugikeit des Kompass durch elektrische Magnetfelder im Flugzeug (zb. Funkgeräte)
 Die Abweichungen werden vom Techniker festgestellt und sind in einer Tabelle unter dem Kompass aufgezeichnet.
 
+TODO: Bild einfügen
+
+
+
+Beispiel: Berechnung des magnetic headings mit Berücksichtigung der Deviation:
+
+TC = 180°
+
+WCA = +10°
+
+== TH 190°
 
