@@ -56,7 +56,7 @@ Beispiel 2:
 * TC = 360°
 * Var = 7° W
 * *= MC 7°*
-* + 5° Wind Correction
+* \+ 5° Wind Correction
 * **= MH 12°**
 
 
@@ -99,4 +99,14 @@ Inklination
 * nördlicher Kurs = Kompass hinkt nach
 * südlicher Kurs = Kompass eilt voraus
 
+=====   ==========   ========
+Karte   magnetisch   Kompass
+        \+/- VAR     \+/- DEV
+=====   ==========   ========
+TC         MC          CC
 
+TT         MT
+
+TH         MH          CH
+
+=====   ==========   ======== 
