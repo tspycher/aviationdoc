@@ -98,8 +98,8 @@ Beispiel: Berechnung des magnetic headings mit Berücksichtigung der Deviation:
 
 * TC = 180°
 * WCA = +10°
-* = TH 190°
+* *= TH 190°*
 * Var 5W = +5°
-* = MH 195°
+* *= MH 195°*
 * Dev 5W = +5°
-**= CH 200°**
+* **= CH 200°**
