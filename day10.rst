@@ -5,11 +5,9 @@ Navigation
 ----------
 Faustformeln:
 
-NM = KM / 2 +10%
-
-KM = NM * 2 -10%
-
-Eine Fingerbreite = 2 Bogenminuten auf der ICAO Karte
+* NM = KM / 2 +10%
+* KM = NM * 2 -10%
+* Eine Fingerbreite = 2 Bogenminuten auf der ICAO Karte
 
 TT - True Track
 ~~~~~~~~~~~~~~~
@@ -42,47 +40,36 @@ Abweichtung des magnetischen Nordpols vom Kartennord.
 Ist am unteren Rand der ICAO Karte ablesbar. Für LSZI derzeit 1°30" E.
 Jährliche Veränderung +11" / Jahr.
 
-Variation E (east) = muss vom TC substrahiert werden
-
-Variation W (west) = muss dem TC addiert werden
+* Variation E (east) = muss vom TC substrahiert werden
+* Variation W (west) = muss dem TC addiert werden
 
 
 Beispiel 1:
 
-TC = 360°
-
-Var = 1.5° E
-
-Magnetic Course = 358.5°
+* TC = 360°
+* Var = 1.5° E
+* **= Magnetic Course 358.5°**
 
 
 Beispiel 2:
 
-TC = 360°
-
-Var = 7° W
-
-MC = 7°
-
-+ 5° Wind Correction
-
-MH = 12°
+* TC = 360°
+* Var = 7° W
+* *= MC 7°*
+* + 5° Wind Correction
+* **= MH 12°**
 
 
 Beispiel 3:
 
-TC = 090°
+* TC = 090°
+* WCA = +10°
+* *= TH 190°*
+* Var = 10° E
+* **= MH 075°**
 
-WCA = +10°
-
-== TH 190°
-
-Var = 10° E
-
-== MH 075°
-
-Alle Angaben via Navigationskarte sind True (True Course / True Heading)
-Nach magnetischer Korrektur sind alle werte Magetic (Magnetic Course / Magnetic Heading)
+* Alle Angaben via Navigationskarte sind True (True Course / True Heading)
+* Nach magnetischer Korrektur sind alle Werte *Magetic* (Magnetic Course / Magnetic Heading)
 
 Deviation
 ~~~~~~~~~
@@ -103,3 +90,13 @@ Beispiel: Berechnung des magnetic headings mit Berücksichtigung der Deviation:
 * *= MH 195°*
 * Dev 5W = +5°
 * **= CH 200°**
+
+Inklination
+~~~~~~~~~~~
+
+... ist der Winkel zwischen den erdmagnetischen Feldlinien und dem Horizont.
+
+* nördlicher Kurs = Kompass hinkt nach
+* südlicher Kurs = Kompass eilt voraus
+
+
