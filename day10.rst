@@ -77,8 +77,8 @@ Deviation
 Ungenaugikeit des Kompass durch elektrische Magnetfelder im Flugzeug (zb. Funkgeräte)
 Die Abweichungen werden vom Techniker festgestellt und sind in einer Tabelle unter dem Kompass aufgezeichnet.
 
-TODO: Bild einfügen
-
+.. image:: day10/compass_deviation.jpg
+..[1] Quelle: `Define Aviation <http://www.defineaviation.info/magnetic-compass-and-timed-turns/>`_
 
 
 Beispiel: Berechnung des magnetic headings mit Berücksichtigung der Deviation:
@@ -131,7 +131,7 @@ Berechnung des Wind Correction Angle (WCA)
 * Bodenwind: von der Wetterkarte ist bezogen auf True Nord (ohne Variation)
 * Pistenangaben sind immer magnetisch Nord
 
-Konstruktion des Winddreiecks [1]
+Konstruktion des Winddreiecks [2]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Maßstab für die Geschwindigkeit festlegen (beispielsweise 10 kn = 1 cm, um die Konstruktion auf einem DIN-A4-Blatt zeichnen zu können)
@@ -144,55 +144,68 @@ Konstruktion des Winddreiecks [1]
 #. Auf TC (Kurs-über-Grund-Vektor) Grundgeschwindigkeit (VG) ausmessen, Maßstab berücksichtigen
 #. WCA (wind correction angle – Windvorhaltewinkel) zwischen TC und TH messen
 
-..[5] Quelle: `Wikipedia <http://de.wikipedia.org/wiki/Winddreieck>`_.
+..[2] Quelle: `Wikipedia <http://de.wikipedia.org/wiki/Winddreieck>`_
 
 
 Grundlagen des Fluges
 ----------
 
 * **Druckpunkt**: Angriffspunkt von der Aerodynamischen Auftriebskraft an der Profilsehne
+
   * Der Druckpunkt wandert nach vorne je grösser der Anstellwinkel ist.
   * Ausnahme: symmetrische Profile
 
 Die Grenzschicht
 ~~~~~~~~~~~~~~~~
 
+.. image:: day10/grenzschicht.png
+
 * **Viskosität** ist der Widerstand gegen Deformationsgeschwindigkeit
+
   * Festkörper: Kraft is proportional zur Deformation (Elastizität)
   * Fluid: Kraft ist abhängig von Deformationsgeschwindigkeit (Viskosität)
 * In der Grenzschicht herrscht erhöhte Reibung
 * Ausserhab der Grenzschicht herrscht Reibungsfreie Strömung
 * Die Grenzschicht wird mit zunehmender Strömungsgeschwindigkeit dichter
+
   * Es entstehen Turbulenzen (Verwirbelungen)
 * Die Geschwindigkeit der turbulenten Grenzschicht ist **höher** als der laminaren Grenzschicht
+
   * Mehr kinetische Energie, Bessere Haftung am Profil
 * Die turbulente Grenzschicht hat eine deutlich höhrere Dichte (verursacht durch Verwirbelungen)
+
   * dadurch entsteht erhöhter Widerstand / Reibung
 * Je höher der Widerstand, desto höher werden die Temperaturen
+
   * deshalb gibt es Hitzeschilder für Space Shuttle für den Wiedereintritt in die Erdathmosphäre
 * Laminarprofile erzeugen weniger Turbulenzen, dh. geringerer Widerstand
 * Nieten und Mücken auf dem Profil erzeugen erhöhten Widerstand
+
   * deshalb können Segelflieger die Tragflächen während des Fluges reinigen
 * Grenzschichtablösung führt zum Stall
 
-Auftriebshilfen (Flaps / Slats) .. [Seite 86]
+Auftriebshilfen (Flaps / Slats)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Der erhöhte Auftrieb wird hauptsächlich auf der Flügelunterseite erzeugt
+
   * Ausnahmen: Fowler Flaps & Spaltklappen (marginal)
   * Fowler Flaps erzeugen den stärksten Auftrieb
 * Vorflügel (Slats) sorgen für:
+
   * erhöhtem Auftrieb
   * höherer kritischer Anstellwinkel
 * Druckpunkt wandert beim Ausfahren der Klappen nach hinten
 * Das Ausfahren der Klappen bewirkt i.d.R. ein Nose-Up Moment, **Ballooning** genannt
+
   * zum Behalten des gleichen Antriebskoeffizienten, muss die Nase gesenkt werden
 * Klappen sind filigran und haben eine maximal erlaubte Geschwindigkeit
+
   * Höchstgeschwindigkeit = Vfe (FE = FLaps extended)
   * Höchstgeschwindigkeit beim Ausfahren/Einfahren = Vfo (FO = Flaps Operation)
 * Limitiertes Lastvielfaches (üblicherweise 2G) bei ausgefahrenen Klappen
 
-Aerodynamische Bremsen (Spoiler / Speed Brakes) .. [Seite 95]
+Aerodynamische Bremsen (Spoiler / Speed Brakes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * erhöhen den Luftwiderstand
@@ -206,13 +219,14 @@ Seitengleitflug (Glissade / Splip)
 * ist mit ausgefahrenen Klappen meistens nicht erlaubt
 * führt zu schnellem Sinken
 
-Strömungsablösung (Stall) .. [Seite 99]
+Strömungsablösung (Stall)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Querruder verlieren stark an Wirkung
 * führt zu Schütteln / Taumeln
 * erzeugt ein Nose-Down Moment am Höhenleitwerk
 * Low Speed Stall
+
   * wenn Vs (Stall) oder Vs0 (Stall w/ flaps extended) erreicht ist
   * Lastvielfaches und Gewicht beeinflussen Vs/Vs0
 
