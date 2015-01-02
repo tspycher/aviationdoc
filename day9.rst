@@ -96,8 +96,8 @@ Umrechnungen:
 
 
 ========   =======   ======   ============
-  ..           GW       ARM        MOM
-           (lbs)               (lbs-inch)
+  ..         GW       ARM        MOM
+           (lbs)       .       (lbs-inch)
 ========   =======   ======   ============
 AC BW       1472,8    83.7     123273
 PAX V        308      80.5      24794
